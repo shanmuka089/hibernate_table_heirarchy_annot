@@ -8,9 +8,9 @@
 		<property name="connection.username">root</property>
 		<property name="connection.password">Shanmukha@5525</property>
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-		<mapping class="com.hibernate.entities.Employee" />
-		<mapping class="com.hibernate.entities.RegularEmployee" />
-		<mapping class="com.hibernate.entities.PartTimeEmployee" />
+		<mapping class="com.hibernate.table.per.subClass.Employee"/>
+		<mapping class="com.hibernate.table.per.subClass.RegularEmployee" />
+		<mapping class="com.hibernate.table.per.subClass.PartTimeEmployee" />
 	</session-factory>
 
 </hibernate-configuration>  

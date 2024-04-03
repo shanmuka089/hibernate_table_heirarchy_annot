@@ -1,4 +1,4 @@
-package com.hibernate.entities;
+package com.hibernate.table.per.heirarchy;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.DiscriminatorValue;
